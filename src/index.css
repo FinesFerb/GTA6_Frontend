@@ -1,8 +1,8 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import "tailwindcss";
 
 :root {
-  font-family: "Roboto Slab", serif;
+  /* font-family: "Roboto Slab", serif; */
   line-height: 1.5;
   font-weight: 400;
 
@@ -31,6 +31,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
